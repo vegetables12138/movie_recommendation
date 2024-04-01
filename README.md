@@ -178,15 +178,7 @@
 	5.导入的账号密码为：Zero  123456；
 	6.数据库所有电影数据以movie_collectmoviedb表中电影数据为基础，用户数据以	user_usersbase为基础，导入数据必须先导入这两张表，其余数据后导，删除数据时则相反，需先删除关联其的数据最后再删该表数据。
 
-### 9、常见错误：
-```
-  File "D:\app\Python\Python37\lib\importlib\__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "D:\app\Python\Python37\lib\site-packages\django\db\backends\mysql\base.py", line 37, in <module>
-    raise ImproperlyConfigured('mysqlclient 1.3.13 or newer is required; you have %s.' % Database.__version__)
-django.core.exceptions.ImproperlyConfigured: mysqlclient 1.3.13 or newer is required; you have 0.9.3.
 
-遇见此错误时，找到对应代码文件中的判断版本的两行代码，前面加注释“# ”，忽略错误。
 ```
 
 ### 10、开源许可
@@ -194,10 +186,6 @@ django.core.exceptions.ImproperlyConfigured: mysqlclient 1.3.13 or newer is requ
 - **如有引用和转载，请注明出处**
 
 ### 11、引用参考
-- [recommenderSystemBasedOnSpark](https://github.com/toughhou/recommenderSystemBasedOnSpark)
+- https://github.com/HuQi2018/BiSheServer/tree/master/BiSheServer
 
-### 12、Star History <a name="star-history"></a>
 
-<a href="https://github.com/HuQi2018/BiSheServer/stargazers">
-        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=HuQi2018/BiSheServer&type=Date">
-      </a> 
